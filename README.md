@@ -13,7 +13,7 @@ Instructions:<br>
   Note the example textTemplate if you want to incorporate the date and counter to your email<br>
   content, it will be updated with every email sent. <br>
 * Run the script and answer the prompts.<br>
-* The script will login via SMTP to gmail and will send an emails with the following logic:<br>
+* The script will login via SMTP to gmail and will send emails with the following logic:<br>
      1. Initially - send a mail every 3 hours<br>
      2. If 4 emails have been sent - decrease time interval by 15 minutes until the minimum time of 15 minutes is reached<br>
 * Wait for customer service to give up or until the specified amount of emails is reached.<br>
